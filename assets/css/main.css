@@ -14,6 +14,26 @@
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+@font-face {
+  font-family: fuenteButler;
+  src: url("../fuentes/butler/Butler/Butler_Light.otf");
+}
+@font-face {
+  font-family: fuenteCaramel;
+  src: url("../fuentes/caramel/Caramel.ttf");
+}
+
+.fuente1 {
+ font-family: fuenteCaramel;
+  font-size: 30px;
+  text-align: center;
+}
+
+.fuente2 {
+ font-family: fuenteButler;
+  font-size: 30px;
+  text-align: center;
+}
 
 /*--------------------------------------------------------------
 # General

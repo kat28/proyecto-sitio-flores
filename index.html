@@ -1,1145 +1,896 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Las Flores de Lua</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <title>Floristería las flores de Lua</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
-  </head>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <body>
-    <!-- ======= Header ======= -->
-    <section id="topbar" class="topbar d-flex align-items-center">
-      <div
-        class="container d-flex justify-content-center justify-content-md-between"
-      >
-        <div class="social-links d-none d-md-flex align-items-center">
-          <a
-            href="https://www.instagram.com/las_floresde_lua/"
-            target="_blank"
-            class="instagram"
-            ><i class="bi bi-instagram"></i
-          ></a>
-          <a
-            href="https://wa.me/c/50621029843"
-            target="_blank"
-            class="instagram"
-            ><i class="bi bi-whatsapp"></i
-          ></a>
-          <a
-            href="https://www.facebook.com/profile.php?id=100063607717426"
-            target="_blank"
-            class="facebook"
-            ><i class="bi bi-facebook"></i
-          ></a>
-        </div>
-        <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-box-arrow-in-right d-flex align-items-center"
-            ><a href="mailto:contact@example.com">Ingreso/Registro</a></i
-          >
-          <i class="bi bi-telephone d-flex align-items-center ms-4"
-            ><span>+506 2102-9843</span></i
-          >
-        </div>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <section id="topbar" class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="https://www.instagram.com/las_floresde_lua/" target="_blank" class="instagram"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://wa.me/c/50621029843" target="_blank" class="instagram"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100063607717426" target="_blank" class="facebook"><i
+            class="bi bi-facebook"></i></a>
       </div>
-    </section>
-    <!-- End Top Bar -->
-
-    <header id="header" class="header d-flex align-items-center">
-      <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-center"
-      >
-        <a href="index.html" class="logo d-flex align-items-center"
-          ><br />
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-           <img src="assets/img/inicio/logo.jpg" alt=""> 
-         <!-- <h1>Las flores de <span>Lua</span></h1>-->
-        </a>
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a href="#hero">Inicio</a></li>
-            <li><a href="#about">Sobre Nosotros</a></li>
-            <li><a href="#portfolio">Productos</a></li>
-            <li><a href="#testimonials">Clientes</a></li>
-            <li><a href="#faq">Preguntas Frecuentes</a></li>
-            <li><a href="#services">Significado Flores</a></li>
-      
-            
-            <li><a href="#contact">Contacto</a></li>
-          </ul>
-        </nav>
-        <!-- .navbar -->
-
-        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-box-arrow-in-right d-flex align-items-center"><a
+            href="mailto:contact@example.com">Ingreso/Registro</a></i>
+        <i class="bi bi-telephone d-flex align-items-center ms-4"><span>+506 2102-9843</span></i>
       </div>
-    </header>
-    <!-- End Header -->
+    </div>
+  </section>
+  <!-- End Top Bar -->
 
-    <!-- End Header -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center">
+      <a href="index.html" class="logo d-flex align-items-center"><br />
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/inicio/logo.jpg" alt="">
+        <!-- <h1>Las flores de <span>Lua</span></h1>-->
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#about">Sobre Nosotros</a></li>
+          <li><a href="#portfolio">Productos</a></li>
+          <li><a href="#testimonials">Clientes</a></li>
+          <li><a href="#faq">Preguntas Frecuentes</a></li>
+          <li><a href="#services">Significado Flores</a></li>
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero">
-      <div class="container position-relative">
-        <div class="row gy-6" data-aos="fade-in">
-          <div
-            class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start"
-          >
-            <h2>Las flores de <span>Lua</span></h2>
-            <p>
- Un negocio familiar desde 2020
-            </p>
- 
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2">
-            <img 
-              width="350px"
-              src="assets/img/inicio/logo.jpg"
-              class="img-fluid"
-              alt=""
-              data-aos="zoom-out"
-              data-aos-delay="100"
-            />
-          </div>
+
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+    <div class="container position-relative">
+      <div class="row gy-6" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>Las flores de <span>Lua</span></h2>
+          <p>
+            Un negocio familiar desde 2020
+          </p>
+
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img width="350px" src="assets/img/inicio/logo.jpg" class="img-fluid" alt="" data-aos="zoom-out"
+            data-aos-delay="100" />
         </div>
       </div>
+    </div>
 
-      <!-- ======= Our Team Section ======= -->
-      <div id="team" class="team">
-        <div class="container position-relative" data-aos="fade-up">
-          <div class="row gy-4">
-         
-            <div
-              class="col-xl-3 col-md-6 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="member">
-                <img
-                  src="assets/img/inicio/ramos2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <h4>Ramos</h4>
-              </div>
-            </div>
-            <!-- End Team Member -->
-            <div
-            class="col-xl-3 col-md-6 d-flex"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+    <!-- ======= Our Team Section ======= -->
+    <div id="team" class="team">
+      <div class="container position-relative" data-aos="fade-up">
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <img
-                src="assets/img/inicio/graduacion.jpg"
-                class="img-fluid"
-                alt=""
-              />
+              <img src="assets/img/inicio/ramos2.jpg" class="img-fluid" alt="" />
+              <h4>Ramos</h4>
+            </div>
+          </div>
+          <!-- End Team Member -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/inicio/graduacion.jpg" class="img-fluid" alt="" />
               <h4>Graduación</h4>
             </div>
           </div>
           <!-- End Team Member -->
 
-            <div
-              class="col-xl-3 col-md-6 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="member">
-                <img
-                  src="assets/img/inicio/princesas.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <h4>Princesas</h4>
-              </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/inicio/princesas.jpg" class="img-fluid" alt="" />
+              <h4>Princesas</h4>
             </div>
-            <!-- End Team Member -->
+          </div>
+          <!-- End Team Member -->
 
-            <div
-              class="col-xl-3 col-md-6 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="member">
-                <img
-                  src="assets/img/inicio/arreglo.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <h4>Arreglos</h4>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/inicio/arreglo.jpg" class="img-fluid" alt="" />
+              <h4>Arreglos</h4>
+            </div>
+          </div>
+          <!-- End Team Member -->
+        </div>
+      </div>
+    </div>
+    <!-- End Our Team Section -->
+  </section>
+  <!-- End Hero Section -->
+
+  <main id="main">
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container gy-4 mt-4" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Sobre Nosotros</h2>
+          <p>
+            Aperiam dolorum et et wuia molestias qui eveniet numquam nihil
+            porro incidunt dolores placeat sunt id nobis omnis tiledo stran
+            delop
+          </p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6 mx-auto">
+            <video width="350" height="500" autoplay muted controls>
+              <source src="assets/video/10000000_631379191651065_6680362654151013595_n.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+
+            <p>
+              Ut fugiat ut sunt quia veniam. Voluptate perferendis
+              perspiciatis quod nisi et. Placeat debitis quia recusandae odit
+              et consequatur voluptatem. Dignissimos pariatur consectetur
+              fugiat voluptas ea.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat.
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i> Duis aute irure
+                  dolor in reprehenderit in voluptate velit.
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate trideta storacalaperda mastiro
+                  dolore eu fugiat nulla pariatur.
+                </li>
+              </ul>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident
+              </p>
+
+
+              <div class="position-relative mt-4">
+                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="" />
+                <a href="assets/video/10000000_631379191651065_6680362654151013595_n.mp4"
+                  class="glightbox play-btn"></a>
               </div>
             </div>
-            <!-- End Team Member -->
           </div>
         </div>
       </div>
-      <!-- End Our Team Section -->
     </section>
-    <!-- End Hero Section -->
+    <!-- End About Us Section -->
 
-    <main id="main">
-      <!-- ======= About Us Section ======= -->
-      <section id="about" class="about">
-        <div class="container gy-4 mt-4" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Sobre Nosotros</h2>
-            <p>
-              Aperiam dolorum et et wuia molestias qui eveniet numquam nihil
-              porro incidunt dolores placeat sunt id nobis omnis tiledo stran
-              delop
-            </p>
-          </div>
-
-          <div class="row gy-4">
-            <div class="col-lg-6 mx-auto">
-              <video width="350" height="500" autoplay muted controls>
-                <source src="assets/video/10000000_631379191651065_6680362654151013595_n.mp4" type="video/mp4"> 
-                Your browser does not support HTML video.
-              </video>
-
-              <p>
-                Ut fugiat ut sunt quia veniam. Voluptate perferendis
-                perspiciatis quod nisi et. Placeat debitis quia recusandae odit
-                et consequatur voluptatem. Dignissimos pariatur consectetur
-                fugiat voluptas ea.
-              </p> 
-            </div>
-            <div class="col-lg-6">
-              <div class="content ps-0 ps-lg-5">
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat.
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle-fill"></i> Duis aute irure
-                    dolor in reprehenderit in voluptate velit.
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate trideta storacalaperda mastiro
-                    dolore eu fugiat nulla pariatur.
-                  </li>
-                </ul>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident
-                </p>
-
-
-                <div class="position-relative mt-4">
-                  <img
-                    src="assets/img/about-2.jpg"
-                    class="img-fluid rounded-4"
-                    alt=""
-                  />
-                  <a
-                    href="assets/video/10000000_631379191651065_6680362654151013595_n.mp4"
-                    class="glightbox play-btn"
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio sections-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Productos</h2>
+          <p>
+            Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum
+            nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti
+          </p>
         </div>
-      </section>
-      <!-- End About Us Section -->
- 
-       <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio sections-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Productos</h2>
-            <p>
-              Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum
-              nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti
-            </p>
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
+          data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
+          <div>
+            <ul class="portfolio-flters">
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-app">Ramos</li>
+              <li data-filter=".filter-product">Graduación</li>
+              <li data-filter=".filter-branding">Especiales</li>
+              <li data-filter=".filter-books">Arreglos</li>
+            </ul>
+            <!-- End Portfolio Filters -->
           </div>
 
-          <div
-            class="portfolio-isotope"
-            data-portfolio-filter="*"
-            data-portfolio-layout="masonry"
-            data-portfolio-sort="original-order"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div>
-              <ul class="portfolio-flters">
-                <li data-filter="*" class="filter-active">Todos</li>
-                <li data-filter=".filter-app">Ramos</li>
-                <li data-filter=".filter-product">Graduación</li>
-                <li data-filter=".filter-branding">Especiales</li>
-                <li data-filter=".filter-books">Arreglos</li>
-              </ul>
-              <!-- End Portfolio Filters -->
+          <div class="row gy-4 portfolio-container">
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">App 1</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
             </div>
+            <!-- End Portfolio Item -->
 
-            <div class="row gy-4 portfolio-container">
-              <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/app-1.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/app-1.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >App 1</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
+            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">Product 1</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/product-1.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/product-1.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >Product 1</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/branding-1.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/branding-1.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >Branding 1</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/books-1.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/books-1.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >Books 1</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/app-2.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/app-2.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >App 2</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/product-2.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/product-2.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >Product 2</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/branding-2.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/branding-2.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >Branding 2</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/books-2.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/books-2.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >Books 2</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/app-3.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/app-3.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >App 3</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/product-3.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/product-3.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >Product 3</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/branding-3.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/branding-3.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >Branding 3</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/img/portfolio/books-3.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/portfolio/books-3.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  <div class="portfolio-info">
-                    <h4>
-                      <a href="portfolio-details.html" title="More Details"
-                        >Books 3</a
-                      >
-                    </h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
             </div>
-            <!-- End Portfolio Container -->
+            <!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app"
+                  class="glightbox"><img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">Branding 1</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">Books 1</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">App 2</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">Product 2</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-app"
+                  class="glightbox"><img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">Branding 2</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">Books 2</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">App 3</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">Product 3</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-app"
+                  class="glightbox"><img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">Branding 3</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="" /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">Books 3</a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
           </div>
+          <!-- End Portfolio Container -->
         </div>
-      </section>
-      <!-- End Portfolio Section -->
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
 
-            <!-- ======= Testimonials Section ======= -->
-            <section id="testimonials" class="testimonials">
-              <div class="container" data-aos="fade-up">
-                <div class="section-header">
-                  <h2>Clientes</h2>
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Clientes</h2>
+          <p>
+            Voluptatem quibusdam ut ullam perferendis repellat non ut
+            consequuntur est eveniet deleniti fignissimos eos quam
+          </p>
+        </div>
+
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0"
+                      alt="" />
+                    <div>
+                      <h3>Saul Goodman</h3>
+                      <h4>Ceo &amp; Founder</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
                   <p>
-                    Voluptatem quibusdam ut ullam perferendis repellat non ut
-                    consequuntur est eveniet deleniti fignissimos eos quam
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum suscipit rhoncus. Accusantium quam,
+                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                    risus at semper.
+                    <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
-      
-                <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div class="testimonial-wrap">
-                        <div class="testimonial-item">
-                          <div class="d-flex align-items-center">
-                            <img
-                              src="assets/img/testimonials/testimonials-1.jpg"
-                              class="testimonial-img flex-shrink-0"
-                              alt=""
-                            />
-                            <div>
-                              <h3>Saul Goodman</h3>
-                              <h4>Ceo &amp; Founder</h4>
-                              <div class="stars">
-                                <i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i>
-                              </div>
-                            </div>
-                          </div>
-                          <p>
-                            <i class="bi bi-quote quote-icon-left"></i>
-                            Proin iaculis purus consequat sem cure digni ssim donec
-                            porttitora entum suscipit rhoncus. Accusantium quam,
-                            ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                            risus at semper.
-                            <i class="bi bi-quote quote-icon-right"></i>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End testimonial item -->
-      
-                    <div class="swiper-slide">
-                      <div class="testimonial-wrap">
-                        <div class="testimonial-item">
-                          <div class="d-flex align-items-center">
-                            <img
-                              src="assets/img/testimonials/testimonials-2.jpg"
-                              class="testimonial-img flex-shrink-0"
-                              alt=""
-                            />
-                            <div>
-                              <h3>Sara Wilsson</h3>
-                              <h4>Designer</h4>
-                              <div class="stars">
-                                <i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i>
-                              </div>
-                            </div>
-                          </div>
-                          <p>
-                            <i class="bi bi-quote quote-icon-left"></i>
-                            Export tempor illum tamen malis malis eram quae irure esse
-                            labore quem cillum quid cillum eram malis quorum velit
-                            fore eram velit sunt aliqua noster fugiat irure amet legam
-                            anim culpa.
-                            <i class="bi bi-quote quote-icon-right"></i>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End testimonial item -->
-      
-                    <div class="swiper-slide">
-                      <div class="testimonial-wrap">
-                        <div class="testimonial-item">
-                          <div class="d-flex align-items-center">
-                            <img
-                              src="assets/img/testimonials/testimonials-3.jpg"
-                              class="testimonial-img flex-shrink-0"
-                              alt=""
-                            />
-                            <div>
-                              <h3>Jena Karlis</h3>
-                              <h4>Store Owner</h4>
-                              <div class="stars">
-                                <i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i>
-                              </div>
-                            </div>
-                          </div>
-                          <p>
-                            <i class="bi bi-quote quote-icon-left"></i>
-                            Enim nisi quem export duis labore cillum quae magna enim
-                            sint quorum nulla quem veniam duis minim tempor labore
-                            quem eram duis noster aute amet eram fore quis sint minim.
-                            <i class="bi bi-quote quote-icon-right"></i>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End testimonial item -->
-      
-                    <div class="swiper-slide">
-                      <div class="testimonial-wrap">
-                        <div class="testimonial-item">
-                          <div class="d-flex align-items-center">
-                            <img
-                              src="assets/img/testimonials/testimonials-4.jpg"
-                              class="testimonial-img flex-shrink-0"
-                              alt=""
-                            />
-                            <div>
-                              <h3>Matt Brandon</h3>
-                              <h4>Freelancer</h4>
-                              <div class="stars">
-                                <i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i>
-                              </div>
-                            </div>
-                          </div>
-                          <p>
-                            <i class="bi bi-quote quote-icon-left"></i>
-                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa
-                            multos export minim fugiat minim velit minim dolor enim
-                            duis veniam ipsum anim magna sunt elit fore quem dolore.
-                            <i class="bi bi-quote quote-icon-right"></i>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End testimonial item -->
-      
-                    <div class="swiper-slide">
-                      <div class="testimonial-wrap">
-                        <div class="testimonial-item">
-                          <div class="d-flex align-items-center">
-                            <img
-                              src="assets/img/testimonials/testimonials-5.jpg"
-                              class="testimonial-img flex-shrink-0"
-                              alt=""
-                            />
-                            <div>
-                              <h3>John Larson</h3>
-                              <h4>Entrepreneur</h4>
-                              <div class="stars">
-                                <i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i
-                                ><i class="bi bi-star-fill"></i>
-                              </div>
-                            </div>
-                          </div>
-                          <p>
-                            <i class="bi bi-quote quote-icon-left"></i>
-                            Quis quorum aliqua sint quem legam fore sunt eram irure
-                            aliqua veniam tempor noster veniam enim culpa labore duis
-                            sunt culpa nulla illum cillum fugiat legam esse veniam
-                            culpa fore.
-                            <i class="bi bi-quote quote-icon-right"></i>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End testimonial item -->
-                  </div>
-                  <div class="swiper-pagination"></div>
-                </div>
-              </div>
-            </section>
-            <!-- End Testimonials Section -->
-      
- 
-      <!-- ======= Frequently Asked Questions Section ======= -->
-      <section id="faq" class="faq">
-        <div class="container" data-aos="fade-up">
-          <div class="row gy-4">
-            <div class="col-lg-4">
-              <div class="content px-xl-5">
-                <h3>Preguntas <strong>Frecuentes</strong></h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Duis aute irure dolor in reprehenderit
-                </p>
               </div>
             </div>
+            <!-- End testimonial item -->
 
-            <div class="col-lg-8">
-              <div
-                class="accordion accordion-flush"
-                id="faqlist"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="accordion-item">
-                  <h3 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1"
-                    >
-                      <span class="num">1.</span>
-                      ¿Cómo comprar nuestros productos?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-1"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#faqlist"
-                  >
-                    <div class="accordion-body">
-                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
-                      id volutpat lacus laoreet non curabitur gravida. Venenatis
-                      lectus magna fringilla urna porttitor rhoncus dolor purus
-                      non.
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0"
+                      alt="" />
+                    <div>
+                      <h3>Sara Wilsson</h3>
+                      <h4>Designer</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
                     </div>
                   </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse
+                    labore quem cillum quid cillum eram malis quorum velit
+                    fore eram velit sunt aliqua noster fugiat irure amet legam
+                    anim culpa.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <!-- # Faq item-->
-
-                <div class="accordion-item">
-                  <h3 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-2"
-                    >
-                      <span class="num">2.</span>
-                      ¿Cómo realizar tu pedido?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-2"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#faqlist"
-                  >
-                    <div class="accordion-body">
-                      Dolor sit amet consectetur adipiscing elit pellentesque
-                      habitant morbi. Id interdum velit laoreet id donec
-                      ultrices. Fringilla phasellus faucibus scelerisque
-                      eleifend donec pretium. Est pellentesque elit ullamcorper
-                      dignissim. Mauris ultrices eros in cursus turpis massa
-                      tincidunt dui.
-                    </div>
-                  </div>
-                </div>
-                <!-- # Faq item-->
-
-                <div class="accordion-item">
-                  <h3 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-3"
-                    >
-                      <span class="num">3.</span>
-                      ¿Cuáles son nuestros metodos de pago?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-3"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#faqlist"
-                  >
-                    <div class="accordion-body">
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices
-                      sagittis orci. Faucibus pulvinar elementum integer enim.
-                      Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
-                      tellus pellentesque eu tincidunt. Lectus urna duis
-                      convallis convallis tellus. Urna molestie at elementum eu
-                      facilisis sed odio morbi quis
-                    </div>
-                  </div>
-                </div>
-                <!-- # Faq item-->
-
-                <div class="accordion-item">
-                  <h3 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-4"
-                    >
-                      <span class="num">4.</span>
-                      ¿Cómo realizamos el envio de tus productos?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-4"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#faqlist"
-                  >
-                    <div class="accordion-body">
-                      Dolor sit amet consectetur adipiscing elit pellentesque
-                      habitant morbi. Id interdum velit laoreet id donec
-                      ultrices. Fringilla phasellus faucibus scelerisque
-                      eleifend donec pretium. Est pellentesque elit ullamcorper
-                      dignissim. Mauris ultrices eros in cursus turpis massa
-                      tincidunt dui.
-                    </div>
-                  </div>
-                </div>
-                <!-- # Faq item-->
- 
               </div>
             </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0"
+                      alt="" />
+                    <div>
+                      <h3>Jena Karlis</h3>
+                      <h4>Store Owner</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim
+                    sint quorum nulla quem veniam duis minim tempor labore
+                    quem eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0"
+                      alt="" />
+                    <div>
+                      <h3>Matt Brandon</h3>
+                      <h4>Freelancer</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                    multos export minim fugiat minim velit minim dolor enim
+                    duis veniam ipsum anim magna sunt elit fore quem dolore.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0"
+                      alt="" />
+                    <div>
+                      <h3>John Larson</h3>
+                      <h4>Entrepreneur</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure
+                    aliqua veniam tempor noster veniam enim culpa labore duis
+                    sunt culpa nulla illum cillum fugiat legam esse veniam
+                    culpa fore.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
           </div>
+          <div class="swiper-pagination"></div>
         </div>
-      </section>
-      <!-- End Frequently Asked Questions Section -->
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
 
-       
-      <!-- ======= Our Services Section ======= -->
-      <section id="services" class="services sections-bg">
-        <div class="container gy-4 mt-4" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Significados de las flores</h2>
-            <p>
-              Aperiam dolorum et et wuia molestias qui eveniet numquam nihil
-              porro incidunt dolores placeat sunt id nobis omnis tiledo stran
-              delop
-            </p>
-          </div>
 
-          <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-activity"></i>
-                </div>
-                <h3>Nesciunt Mete</h3>
-                <p>
-                  Provident nihil minus qui consequatur non omnis maiores. Eos
-                  accusantium minus dolores iure perferendis tempore et
-                  consequatur.
-                </p>
-                <a href="#" class="readmore stretched-link"
-                  >Read more <i class="bi bi-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-broadcast"></i>
-                </div>
-                <h3>Eosle Commodi</h3>
-                <p>
-                  Ut autem aut autem non a. Sint sint sit facilis nam iusto
-                  sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
-                </p>
-                <a href="#" class="readmore stretched-link"
-                  >Read more <i class="bi bi-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-easel"></i>
-                </div>
-                <h3>Ledo Markt</h3>
-                <p>
-                  Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.
-                  Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.
-                </p>
-                <a href="#" class="readmore stretched-link"
-                  >Read more <i class="bi bi-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-bounding-box-circles"></i>
-                </div>
-                <h3>Asperiores Commodit</h3>
-                <p>
-                  Non et temporibus minus omnis sed dolor esse consequatur.
-                  Cupiditate sed error ea fuga sit provident adipisci neque.
-                </p>
-                <a href="#" class="readmore stretched-link"
-                  >Read more <i class="bi bi-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-calendar4-week"></i>
-                </div>
-                <h3>Velit Doloremque</h3>
-                <p>
-                  Cumque et suscipit saepe. Est maiores autem enim facilis ut
-                  aut ipsam corporis aut. Sed animi at autem alias eius labore.
-                </p>
-                <a href="#" class="readmore stretched-link"
-                  >Read more <i class="bi bi-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-chat-square-text"></i>
-                </div>
-                <h3>Dolori Architecto</h3>
-                <p>
-                  Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
-                  neque non et debitis iure. Corrupti recusandae ducimus enim.
-                </p>
-                <a href="#" class="readmore stretched-link"
-                  >Read more <i class="bi bi-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-            <!-- End Service Item -->
-          </div>
-        </div>
-      </section>
-      <!-- End Our Services Section -->
-
- 
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Contacto</h2>
-            <p>
-              Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam
-              porro nihil id ratione ea sunt quis dolorem dolore earum
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-      <div class="container">
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
         <div class="row gy-4">
-          <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span>Las flores de Lua</span>
-            </a>
-            <p>Un negocio familiar desde 2020 </p>
-            <div class="social-links d-flex mt-4">
-            <a
-              href="https://www.instagram.com/las_floresde_lua/"
-              target="_blank"
-              class="instagram"
-              ><i class="bi bi-instagram"></i
-            ></a>
-            <a
-              href="https://wa.me/c/50621029843"
-              target="_blank"
-              class="instagram"
-              ><i class="bi bi-whatsapp"></i
-            ></a>
-            <a
-              href="https://www.facebook.com/profile.php?id=100063607717426"
-              target="_blank"
-              class="facebook"
-              ><i class="bi bi-facebook"></i
-            ></a>
+          <div class="col-lg-4">
+            <div class="content px-xl-5">
+              <h3>Preguntas <strong>Frecuentes</strong></h3>
+              <p>
+                Te dejamos las consultas principales. Puedes ver nuestro cátalogo y enviar tus preguntas al 
+                <a href="https://wa.me/c/50621029843" target="_blank" class="instagram"><i class="bi bi-whatsapp"></i> +506 2102-9843</a>
+              </p>
             </div>
           </div>
 
- 
+          <div class="col-lg-8">
+            <div class="accordion accordion-flush" id="faqlist" data-aos="fade-up" data-aos-delay="100">
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-1">
+                    <span class="num">1.</span>
+                    ¿Cómo comprar nuestros productos?
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Ingresa a nuestro perfil de
+                    <a href="https://www.instagram.com/las_floresde_lua/" target="_blank"
+                      class="instagram">Instagram</a>
+                    o <a href="https://www.facebook.com/profile.php?id=100063607717426" target="_blank"
+                      class="facebook">Facebook</a>
+                    y selecciona los productos que deseas. Envianos un mensaje privado o a nuestro
+                    <a href="https://wa.me/c/50621029843" target="_blank" class="instagram"> Whatsapp</a> .
+                    Y con gusto te atenderemos y responderemos tu cotización.
+                  </div>
+                </div>
+              </div>
+              <!-- # Faq item 1 -->
 
-          <div class="col-lg-6 col-6 footer-links justify-content-end">
-            <h4>Nuestros Productos</h4>
-            <ul>
-              <li><a href="#">Ramos</a></li>
-              <li><a href="#">Graduación</a></li>
-              <li><a href="#">Arreglos</a></li>
-              <li><a href="#">Princesas</a></li>
-            </ul>
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-2">
+                    <span class="num">2.</span>
+                    ¿Cómo realizar tu pedido?
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <div class="row">
+                      <div class="col-4">
+                        1. Selecciona el estilo:
+                        <ul>
+                          <li>Ramo</li>
+                          <li>Arreglo</li>
+                          <li>Arreglo con base</li>
+                          <li>Personalizado</li>
+                        </ul>
+                      </div>
+                      <div class="col-4">
+                        2. Selecciona tipo de flor:
+                        <ul>
+                          <li>Rosas Rojas</li>
+                          <li>Rosas Blancas</li>
+                          <li>Rosas de temporada</li>
+                          <li>Girasoles</li>
+                          <li>Astromelias</li>
+                          <li>Claveles</li>
+                          <li>Lirio Casa Blanca</li>
+                          <li>Lirio Stargeiser</li>
+                          <li>Lirio Color</li>
+                          <li>Calas</li>
+                          <li>Gerberas</li>
+                          <li>Pomas</li>
+                          <li>Dragones</li>
+                        </ul>
+                      </div>
+                      <div class="col-4">
+                        3. Selecciona un detalle extra:
+                        <ul>
+                          <li>Botella de vino</li>
+                          <li>Peluche</li>
+                          <li>Chocolates</li>
+                          <li>Tu lo proporcionas</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- # Faq item 2 -->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-3">
+                    <span class="num">3.</span>
+                    ¿Cuáles son nuestros metodos de pago?
+                  </button>
+                </h3>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <p>Puedes pagar por:</p>
+                    <p><i class="bi bi-cash-stack""></i><b> Efectivo</b></p>
+                    <p><i class="bi bi-phone-vibrate"></i><b> Sinpe Móvil</b></p>
+                    <p><i class="bi bi-credit-card"></i><b> Transferencia</b></p>
+
+                  </div>
+                </div>
+              </div>
+              <!-- # Faq item 3 -->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-4">
+                    <span class="num">4.</span>
+                    ¿Cómo realizamos el envio de tus productos?
+                  </button>
+                </h3>
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+
+
+                    <p><i class="bi bi-truck"></i> Hacemos entregas a todo Perez Zeledón.</p>
+
+
+                  </div>
+                </div>
+              </div>
+              <!-- # Faq item 4 -->
+
+            </div>
           </div>
         </div>
       </div>
+    </section>
+    <!-- End Frequently Asked Questions Section -->
 
-      <div class="container mt-4">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Las Flores de Lua</span></strong
-          >. All Rights Reserved
+
+    <!-- ======= Our Services Section ======= -->
+    <section id="services" class="services sections-bg">
+      <div class="container gy-4 mt-4" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Significado de las flores</h2>
+          <p>
+            Aperiam dolorum et et wuia molestias qui eveniet numquam nihil
+            porro incidunt dolores placeat sunt id nobis omnis tiledo stran
+            delop
+          </p>
         </div>
-        <div class="credits">
-          Diseñado por <a href="#">Santiago Conejo - Katherinne Godinez</a>
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <h3>Nesciunt Mete</h3>
+              <p>
+                Provident nihil minus qui consequatur non omnis maiores. Eos
+                accusantium minus dolores iure perferendis tempore et
+                consequatur.
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <h3>Eosle Commodi</h3>
+              <p>
+                Ut autem aut autem non a. Sint sint sit facilis nam iusto
+                sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <h3>Ledo Markt</h3>
+              <p>
+                Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.
+                Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <h3>Asperiores Commodit</h3>
+              <p>
+                Non et temporibus minus omnis sed dolor esse consequatur.
+                Cupiditate sed error ea fuga sit provident adipisci neque.
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <h3>Velit Doloremque</h3>
+              <p>
+                Cumque et suscipit saepe. Est maiores autem enim facilis ut
+                aut ipsam corporis aut. Sed animi at autem alias eius labore.
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <h3>Dolori Architecto</h3>
+              <p>
+                Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
+                neque non et debitis iure. Corrupti recusandae ducimus enim.
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
         </div>
       </div>
-    </footer>
-    <!-- End Footer --> 
+    </section>
+    <!-- End Our Services Section -->
 
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center" >
-      <i class="bi bi-arrow-up-short"></i>
-    </a>
 
-    <div id="preloader"></div>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Contacto</h2>
+          <p>
+            Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam
+            porro nihil id ratione ea sunt quis dolorem dolore earum
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>Las flores de Lua</span>
+          </a>
+          <p>Un negocio familiar desde 2020 </p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.instagram.com/las_floresde_lua/" target="_blank" class="instagram"><i
+                class="bi bi-instagram"></i></a>
+            <a href="https://wa.me/c/50621029843" target="_blank" class="instagram"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100063607717426" target="_blank" class="facebook"><i
+                class="bi bi-facebook"></i></a>
+          </div>
+        </div>
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
+
+
+        <div class="col-lg-6 col-6 footer-links justify-content-end">
+          <h4>Nuestros Productos</h4>
+          <ul>
+            <li><a href="#">Ramos</a></li>
+            <li><a href="#">Graduación</a></li>
+            <li><a href="#">Arreglos</a></li>
+            <li><a href="#">Princesas</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Las Flores de Lua</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Diseñado por <a href="#">Santiago Conejo - Katherinne Godinez</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>

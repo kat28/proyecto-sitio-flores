@@ -1141,11 +1141,15 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-container {
-  background-color: var(--color-primary);
+  
   height: 100%;
   padding: 20px;
   border-radius: 10px 0 0 10px;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact .info-container .map{ 
+  height: 180px; 
 }
 
 .contact .info-item {

@@ -29,6 +29,14 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet" />
+
+  <!-- Mapas-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+  integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+   <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+ integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+ crossorigin=""></script>
 </head>
 
 <body>
@@ -645,10 +653,85 @@
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Contacto</h2>
-          <p>
-            Este apartado quedará listo para la entrega final del proyecto.
-          </p>
         </div>
+
+        <div class="row gx-lg-0 gy-4">
+          <div class="col-lg-7">
+            <div class="info-container d-flex flex-column align-items-center justify-content-center" >
+              <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=flores de lua&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://mcpedls.com/">Minecraft Download</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+ 
+            <div class="row">
+              <div class="col-lg-12">
+               
+                <form
+                  action="forms/contact.php"
+                  method="post"
+                  role="form"
+                  class="php-email-form"
+                >
+                  <div class="row">
+                    <div class="content px-xl-5">
+                      <h4 class="text-center"><img style="width: 32px;" src="./assets/img/icons/loto.png"/><strong> Escribenos </strong><img style="width: 32px;" src="./assets/img/icons/loto.png"/></h4>
+                      
+                      <p>
+                       WhatsApp Business
+                        <a href="https://wa.me/c/50621029843" target="_blank" class="instagram"><i class="bi bi-whatsapp"></i>
+                          +506 2102-9843</a>
+                      </p>
+                    </div>
+                
+                     
+                    <div class="col-md-6 form-group">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        id="name"
+                        placeholder="Nombre"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="Correo"
+                        required
+                      />
+                    </div>
+                  </div>
+        
+                  <div class="form-group mt-3">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="7"
+                      placeholder="Comentario"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Su mensaje ha sido enviado. Gracias!
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit">Enviar Mensaje</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- End Contact Form -->
+       
       </div>
     </section>
     <!-- End Contact Section -->

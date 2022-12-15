@@ -251,7 +251,7 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  height: 90px;
+  height: 100px;
   background-color: var(--color-primary);
 }
 
@@ -265,7 +265,12 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 100px;
+  margin-right: 6px;
+}
+
+.header.sticked .logo img {
+  max-height: 60px;
   margin-right: 6px;
 }
 
@@ -288,6 +293,30 @@ section {
 
 section {
   scroll-margin-top: 80px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+height: 75px;
+width: 100px;
+/*outline: black;
+background-size: 100%, 100%;
+border-radius: 50%;
+border: 1px solid black;*/
+background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+content: '>';
+font-size: 60px;
+font-weight: bold;
+}
+
+.carousel-control-prev-icon:after {
+content: '<';
+font-size: 55px;
+font-weight: bold;
 }
 
 /*--------------------------------------------------------------
@@ -704,118 +733,7 @@ section {
 .services .service-item:hover h3 {
   border-color: var(--color-primary);
 }
-
-/*--------------------------------------------------------------
-# Sección Clientes
---------------------------------------------------------------*/
-.testimonials .testimonial-wrap {
-  padding-left: 10px;
-}
-
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  padding: 10px;
-  margin: 30px 10px;
-  box-shadow: 0px 0 15px rgba(0, 0, 0, 0.1);
-  position: relative;
-  background: #fff;
-  border-radius: 10px;
-  border: 1px solid blue;
-}
-
-.div1 {
-  width: 300px;
-  height: auto;
-  padding: 10px;
-  border: 1px solid blue;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  margin-right: 15px;
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #000;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0;
-}
-
-.testimonials .testimonial-item .stars {
-  margin: 10px 0;
-}
-
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
-}
-
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-  color: #009d8b;
-  font-size: 26px;
-  line-height: 0;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-  transform: scale(-1, -1);
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 15px auto 15px auto;
-}
-
-.testimonials .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: rgba(0, 0, 0, 0.2);
-  opacity: 1;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
-}
-
-@media (max-width: 767px) {
-  .testimonials .testimonial-wrap {
-    padding-left: 0;
-  }
-
-  .testimonials .testimonial-item {
-    padding: 30px;
-    margin: 15px;
-  }
-
-  .testimonials .testimonial-item .testimonial-img {
-    position: static;
-    left: auto;
-  }
-}
-
+ 
 /*--------------------------------------------------------------
 # Sección Productos
 --------------------------------------------------------------*/

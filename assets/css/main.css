@@ -328,6 +328,7 @@ section {
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
+    margin-left: 20px;
   }
 
   .navbar a i,
@@ -907,6 +908,10 @@ section {
 /*--------------------------------------------------------------
 # Sección Categorías Inicio
 --------------------------------------------------------------*/
+.team {
+margin-top: 50px;
+}
+
 .team .member {
   text-align: center;
   background: #e9b6af;
@@ -1233,7 +1238,7 @@ section {
   width: 100%;
   position: relative;
   background: #f3f3f3;
-  padding: 60px 0 0 0;
+  padding: 90px;
 }
 
 @media (min-width: 1365px) {
